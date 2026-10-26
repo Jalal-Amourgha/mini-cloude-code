@@ -1,4 +1,4 @@
-# 🎮 Mini AI Agent
+# Mini AI Agent
 
 A lightweight AI agent built with Python that can interact with the local environment through tools such as file management and command execution.
 
@@ -34,7 +34,7 @@ The project is designed as a small, extensible agent framework that can receive 
 ## 🚀 Requirements
 
 - Python 3.12+
-- An OpenRouter API key
+- An OpenRouter API key or Groq
 - [uv](https://docs.astral.sh/uv/) for dependency management
 
 ## ⚙️ Installation
@@ -55,7 +55,7 @@ uv sync
 Create a `.env` file in the project root:
 
 ```env
-OPENROUTER_API_KEY=your_api_key_here
+GROQ_API_KEY=your_api_key
 ```
 
 > Never commit your `.env` file or expose your API key publicly.
@@ -171,6 +171,3 @@ Possible improvements include:
 
 This project is provided for educational and development purposes. Add an appropriate license here if you plan to distribute the project publicly.
 
----
-
-Built with **Python**, **OpenRouter**, and **uv**.
